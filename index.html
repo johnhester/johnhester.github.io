@@ -39,8 +39,6 @@
 	<link rel="stylesheet" href="css/theme-colors/green_light.css" />
 	<link rel="stylesheet" href="css/theme-colors/yellow.css" />
 	<link rel="stylesheet" href="css/theme-colors/yellow_light.css" />
-	-->
-	<link rel="stylesheet" href="css/theme-colors/red.css" />
 
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -76,7 +74,7 @@
 			<!-- logo -->
 			<div class="logo">
 				<a href="#">
-					<img class="logo-img" src="images/logo.png" alt="" />
+					<i class="logo-img fal fa-cogs" alt="logo"></i>
 					<span class="logo-lnk">John <br />Hester</span>
 				</a>
 			</div>
@@ -111,18 +109,18 @@
 									</ul>
 								</li>
 								<li class="menu-item">
-									<a href="#section-about">
-										<span class="animated-button"><span>About</span></span>
-									</a>
-								</li>
-								<li class="menu-item">
 									<a href="#section-technology">
 										<span class="animated-button"><span>Technologies</span></span>
 									</a>
 								</li>
 								<li class="menu-item">
+									<a href="#section-about">
+										<span class="animated-button"><span>About</span></span>
+									</a>
+								</li>
+								<li class="menu-item">
 									<a href="#section-portfolio">
-										<span class="animated-button"><span>Portfolio</span></span>
+										<span class="animated-button"><span>Projects</span></span>
 									</a>
 								</li>
 								<li class="menu-item">
@@ -165,9 +163,9 @@
 							<!-- subtitle -->
 							<div class="h-subtitles">
 								<div class="h-subtitle typing-subtitle">
-									<p>Programmer</p>
 									<p>Web Designer</p>
 									<p>Full Stack Developer</p>
+									<p>Programmer</p>
 								</div>
 								<span class="typed-subtitle"></span>
 							</div>
@@ -196,6 +194,20 @@
 				</div>
 			</div>
 
+			<div class="sesion technologies" id="setion-technology">
+				<div class="content">
+					<!-- title  -->
+					<div class="titles">
+						<div class='title'>Technologies</div>
+						<div class="subtitle">What I've worked with</div>
+					</div>
+					<div>
+						<img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/js-file-2002831-1687011.pmg"
+							alt="JS file icon" />
+					</div>
+				</div>
+			</div>
+
 			<!-- Section About -->
 			<div class="section about" id="section-about">
 				<div class="content">
@@ -211,25 +223,34 @@
 						<div class="col">
 							<div class="single-post-text">
 								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat,
-									nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+									Before diving into software development I gathered experience across multiple
+									industries ranging from customer service, to construction, to logistics, to
+									life-guarding & life-guard instruction, and even a short stint as a Bellman. This
+									diverse work history has given me a wealth of experience along with the ability to
+									function at a high level with coworkers and teams with diverse backgrounds and
+									skill-sets.
 								</p>
 							</div>
 						</div>
 						<div class="col">
 							<div class="single-post-text">
 								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat,
-									nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+									When working in multiple industries one develops the ability to problem solve from
+									many different angles. Most people approach problems based on many factors including
+									how they were raised, their schooling, chosen profession, and coworkers. Even their
+									personal outlook on life has an effect on how an individual approaches a problem
 								</p>
 							</div>
 						</div>
 						<div class="col col-full">
 							<div class="single-post-text">
 								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat,
-									nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit
-									libero, sodales nec, volutpat a, suscipit non, turpis.
+									Having spent time not only in different jobs, but in wildly different industries I
+									have been exposed to a variety of thought processes and problem solving patterns.
+									Whether it's assisting a customer through dealing with multiple departments in a
+									call center, laying gas lines under a house, or tracking orders for a construction
+									site, every experience has a lesson or skill that can lead to growth, and I believe
+									this gives me a distinct advantage stepping into the world of software development.
 								</p>
 							</div>
 						</div>
@@ -240,7 +261,6 @@
 						<ul>
 							<li><strong>Age:</strong> 29</li>
 							<li><strong>Location:</strong> Nashville, TN</li>
-							<li><strong>Freelance:</strong> Available</li>
 							<li><strong>Phone:</strong> +1 (256)762-3851</li>
 							<li><strong>E-mail:</strong> jmhester31@gmail.com</li>
 						</ul>
@@ -254,12 +274,6 @@
 			<!-- Section Testimonials -->
 			<div class="section testimonials" id="section-testimonials">
 				<div class="content">
-
-					<!-- title -->
-					<div class="titles">
-						<div class="title">Reviews</div>
-						<div class="subtitle">What customers say</div>
-					</div>
 
 					<!-- testimonials items -->
 					<div class="content-carousel">
@@ -653,8 +667,6 @@
 						<div class="info-list">
 							<ul>
 								<li><strong>Age:</strong> 29</li>
-								<li><strong>Residence:</strong> USA</li>
-								<li><strong>Freelance:</strong> Available</li>
 								<li><strong>Location:</strong> Nashville, TN</li>
 								<li><strong>Phone:</strong> +1 (256)762-3851</li>
 								<li><strong>E-mail:</strong> jmhester31@gmail.com</li>
@@ -672,12 +684,13 @@
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="socials">
-				<a target="_blank" href="https://www.facebook.com/">
-					<i class="icon fab fa-facebook-f"></i>
+				<a target="_blank" href="https://github.com/johnhester">
+					<i class="icon fab fa-github"></i>
 				</a>
-				<a target="_blank" href="https://www.instagram.com/">
-					<i class="icon fab fa-instagram"></i>
+				<a target="_blank" href="https://www.linkedin.com/in/jmhester/">
+					<i class="icon fab fa-linkedin"></i>
 				</a>
+
 
 			</div>
 		</footer>
