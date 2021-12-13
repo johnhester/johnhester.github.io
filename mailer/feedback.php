@@ -18,7 +18,7 @@ if(isset($_POST)){
 
 	$mail->From = $from;
 	$mail->FromName = $fromName;
-	$mail->addAddress($to, 'Admin');
+	$mail->addAddress($to, 'jmhester31@gmail.com');
 
 	$mail->isHTML(true); 
 	$mail->CharSet = $charset;
